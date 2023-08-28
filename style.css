@@ -1,0 +1,14 @@
+#pokémon {
+    border: 3px solid;
+    border-collapse: collapse;
+}
+
+tr,th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#input {
+    display: flex;
+    flex-direction: row;
+}
