@@ -11,4 +11,9 @@ tr,th,td {
 #input {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 110px;
 }
