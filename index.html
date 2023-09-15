@@ -49,12 +49,12 @@
                     <input id="cc" title="cerulean cave" type="text" placeholder="cerulean cave">
                     <input id="air" title="air" type="text" placeholder="air">
                     <input id="evo" title="evolution" type="text" placeholder="evolution">
-                    <input id="save" type="button" value="Save">
+                    <input id="create" type="button" value="Save">
                 </div>
                 
                 <div>
-                    <table id="pokémon">
-                        <tbody>
+                    <table id="pokemon">
+                        <thead>
                             <tr>
                                 <th>Pokémon</th>
                                 <th>route 1</th>
@@ -95,7 +95,9 @@
                                 <th>air</th>
                                 <th>evolution</th>
                             </tr>
-                            <tr class="pokémon_row">
+                        </thead>
+                        <tbody>
+                            <tr class="pokemon_row">
                                 <td>Bulbasaur</td>
                                 <td></td>
                                 <td></td>
@@ -138,8 +140,8 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>  
-                                  
+                    <button id="save">Save</button>
+                </div>               
             </div>
         </div>
         <script src="script.js"></script>

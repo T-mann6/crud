@@ -1,6 +1,7 @@
 #pokémon {
     border: 3px solid;
     border-collapse: collapse;
+    width: 100%;
 }
 
 tr,th,td {
@@ -16,4 +17,7 @@ tr,th,td {
 
 input {
     width: 110px;
+}
+#pokémon td {
+    padding: 5px;
 }
